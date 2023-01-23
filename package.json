@@ -1,5 +1,5 @@
 {
-  "name": "blank-vite-dark-menu-usecontext",
+  "name": "merncrud004-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "cp": "node cli/cp.mjs",
-		"setup": "pm2 start --name et-mern-crud-site-frontend npm -- start",
-		"start": "vite preview --host --port 5002",
-		"deploy": "git pull --no-rebase && npm i && npm run build && pm2 restart et-mern-crud-site-frontend"
+		"setup": "pm2 start --name merncrud004-frontend npm -- start",
+		"start": "vite preview --host --port 5004",
+		"deploy": "git pull --no-rebase && npm i && npm run build && pm2 restart merncrud004-frontend"
   },
   "dependencies": {
     "axios": "^1.2.1",
